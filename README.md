@@ -20,7 +20,7 @@ Project can be used from local machine or from the Jenkins.
 
 ##### From Local:
 
-*   Clone or download the project **(https://stash.cengage.com/projects/CTAF/repos/jenkins-job-executor/browse)** to the local machine.
+*   Clone or download the project to the local machine.
 *   Edit the required information in the **'Job_Build_Details.xlsx'** sheet under project directory.
 
 **Running the tests from Eclipse**
@@ -55,7 +55,7 @@ Project can be used from local machine or from the Jenkins.
 **Job Details sheet**
 
 *	Do not change the column headers in this sheet. Only specify the Jenkins job details.
-*   In **'Jenkins_URL'** column , specify the Jenkins Base URL *(e.g https://jenkins-qa-automation.cengage.info/job/CTAF/)*.
+*   In **'Jenkins_URL'** column , specify the Jenkins Base URL *(e.g https://jenkins-qa-automation/job/jobname*.
 *	In **'Job_Name'** column, specify the Job to be executed *(e.g CTAF - CAS Test Framework)*.
 * 	In **'Build_Type'** column, select the build type from drop down. i.e, Build with parameters or Build (WithoutParameters).
 * 	In **Number of builds'**, specify the number of times the job to be built(executed). If this field is not specified then default one build will be executed.
@@ -114,4 +114,4 @@ This sheet will be updated with the status of job builds. No changes required in
 *	Column 2 : **Status** 	-	Status of the last completed build (SUCCESS, FAILURE, ABORTED, RUNNING).
 
 **Demo Video**
-[Jenkins Job Executor Demo Video](https://jira.cengage.com/plugins/servlet/jeditor_file_provider?imgId=ckupload202012183563654556295608629&fileName=Jenkins+Job+Executor+Demo.mp4 "Jenkins Job Executor Demo Video") 
+[Jenkins Job Executor Demo Video](https://jira.com/plugins/servlet/jeditor_file_provider?imgId=ckupload202012183563654556295608629&fileName=Jenkins+Job+Executor+Demo.mp4 "Jenkins Job Executor Demo Video") 
